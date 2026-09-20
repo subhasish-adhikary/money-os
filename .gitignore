@@ -10,7 +10,7 @@ target/
 # Environment variables
 .env
 .env.local
-.env.*
+*.env.*
 
 # Python related
 __pycache__/
@@ -21,8 +21,6 @@ __pycache__/
 env/
 venv/
 .venv/
-.ENV
-.python-version
 pip-log.txt
 pip-delete-this-directory.txt
 .tox/
@@ -34,41 +32,32 @@ coverage.xml
 *.cover
 *.log
 *.tmp
-*.swp
-*.swo
-.DS_Store
-Thumbs.db
 
-# IDE related
+# Compiled and binary files
+*.class
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.out
+
+# Editors and IDEs
 .vscode/
 .idea/
 *.swp
 *.swo
 
-# Logs
-*.log
+# OS specific
+.DS_Store
+Thumbs.db
 
-# Temporary files
-*.tmp
-*.temp
-*.bak
-
-# Coverage
+# Testing and coverage
 coverage/
 htmlcov/
-.coverage
-
-# MyPy
-.mypy_cache/
-.dmypy.json
-dmypy.json
-
-# PyTest
 .pytest_cache/
-
-# Vite specific
-!.vite/
-.vite/
+.mypy_cache/
 
 # Compressed files
 *.zip
